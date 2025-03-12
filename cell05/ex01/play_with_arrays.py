@@ -1,5 +1,8 @@
-originalarray = [2, 8, 9, 48, 8, 22, -12, 2]
-Newarray = [4, 10, 11, 50, 10, 24, -10, 4]
-
-print("Original array:",  originalarray)
+Originalarray = [2, 8, 9, 48, 8, 22, -12, 2]
+Newarray = []
+i = 0 
+while i < len(Originalarray):
+    Newarray.append(Originalarray[i] + 2)
+    i += 1
+print("Original array:",  Originalarray)
 print("New array:",  Newarray)
